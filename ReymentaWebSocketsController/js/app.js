@@ -14,12 +14,13 @@ function log(message) {
 }
 function wsConnect() {
 	ws = new WebSocket(url);
+	
 	ws.onopen = function () {
 		log("socket opened");
 		ws.send("open");
 	}
 	ws.onmessage = function () {
-		//ws.send("msg");
+		log("msg");
 	}
 	ws.onclose = function () {
 		log("socket closed");
