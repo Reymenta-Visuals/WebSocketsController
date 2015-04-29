@@ -113,6 +113,8 @@
     <Content Include="images\amiga.jpg" />
     <Content Include="images\heightMap.png" />
     <Content Include="images\ref.jpg" />
+    <Content Include="js\app.js" />
+    <Content Include="js\babscript.js" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
     <Content Include="scripts\hand.minified-1.1.2.js" />

@@ -13,15 +13,7 @@
         document.addEventListener( 'resume', onResume.bind( this ), false );
         
     	// TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        window.WebSocket = window.WebSocket || window.MozWebSocket;
-        var url = "ws://192.168.3.220:9002/";
-        var ws = new WebSocket(url);
-        ws.onopen = function () {
-        	ws.send("wp");
-        }
-        ws.onmessage = function () {
-        	ws.send("msg");
-        }
+ 
 	};
 
     function onPause() {
