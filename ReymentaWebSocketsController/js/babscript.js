@@ -96,11 +96,11 @@
 				uniforms: ["world", "worldView", "worldViewProjection", "view", "projection"]
 			});
 
-		var refTexture = new BABYLON.Texture("ref.jpg", scene);
+		var refTexture = new BABYLON.Texture("images/ref.jpg", scene);
 		refTexture.wrapU = BABYLON.Texture.CLAMP_ADDRESSMODE;
 		refTexture.wrapV = BABYLON.Texture.CLAMP_ADDRESSMODE;
 
-		var mainTexture = new BABYLON.Texture("amiga.jpg", scene);
+		var mainTexture = new BABYLON.Texture("images/amiga.jpg", scene);
 
 		shaderMaterial.setTexture("textureSampler", mainTexture);
 		shaderMaterial.setTexture("refSampler", refTexture);
