@@ -12,12 +12,13 @@
 		#your_canvas {
 			width: 30%;
 			height: 30%;
-			margin: 300px;
+			margin-top: 300px;
+			margin-left: 300px;
 			touch-action: none;
 		}
 		#renderCanvas {
 			width: 30%;
 			height: 30%;
-			margin: 600px;
+			
 			touch-action: none;
 		}

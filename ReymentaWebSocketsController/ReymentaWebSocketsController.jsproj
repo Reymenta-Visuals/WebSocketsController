@@ -110,6 +110,7 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="academy.html" />
     <Content Include="css\codemirror.css" />
     <Content Include="css\glsl.css" />
     <Content Include="images\amiga.jpg">
@@ -121,6 +122,7 @@
     <Content Include="images\ref.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="js\academy.js" />
     <Content Include="js\app.js" />
     <Content Include="js\babscript.js" />
     <Content Include="js\nexusscript.js" />
