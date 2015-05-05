@@ -9,9 +9,15 @@
 			font-weight:100;
 			line-height:2em;
 		}
-
+		#your_canvas {
+			width: 30%;
+			height: 30%;
+			margin: 300px;
+			touch-action: none;
+		}
 		#renderCanvas {
 			width: 30%;
 			height: 30%;
+			margin: 600px;
 			touch-action: none;
 		}

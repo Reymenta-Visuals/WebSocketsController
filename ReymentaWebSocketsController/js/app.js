@@ -31,9 +31,9 @@ var main=function() {
 
   var CANVAS=document.getElementById("your_canvas");
 
-  CANVAS.width=window.innerWidth;
-  CANVAS.height=window.innerHeight;
-
+  CANVAS.width=200;//window.innerWidth;
+  CANVAS.height = 200;//window.innerHeight;
+ 
   var mousePosition=[0,0];
   document.addEventListener('mousemove', function(event) {
     mousePosition[0]=event.clientX,
