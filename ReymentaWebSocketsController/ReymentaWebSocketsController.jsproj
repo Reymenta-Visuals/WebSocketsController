@@ -110,6 +110,8 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="css\codemirror.css" />
+    <Content Include="css\glsl.css" />
     <Content Include="images\amiga.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -124,6 +126,8 @@
     <Content Include="js\nexusscript.js" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="scripts\codemirror.js" />
+    <Content Include="scripts\glsl.js" />
     <Content Include="scripts\hand.minified-1.1.2.js" />
     <Content Include="scripts\nexusUI.js" />
     <Content Include="scripts\nexusUI.min.js" />
