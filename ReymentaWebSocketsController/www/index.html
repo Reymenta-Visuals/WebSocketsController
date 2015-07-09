@@ -3,55 +3,56 @@
 <head>
     <meta charset="utf-8" />
     <title>ReymentaWebSocketsController</title>
-	<script src="scripts/nexusUI.js"></script>
+    <script src="scripts/nexusUI.js"></script>
 
     <!-- ReymentaWebSocketsController references -->
     <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
-	<script src="scripts/winstore-jscompat.js"></script>
-	<script src="scripts/hand.minified-1.1.2.js"></script>
-	<script src="scripts/babylon.js"></script>
-	<canvas id="renderCanvas"></canvas>
-	<div>
-		<header>
-			<h1>Web sockets client</h1>
-		</header>
-		<button onclick="wsConnect()">Connect</button>
-		Type some text:
-		<input type="text" id="cltText" size="50" />
-		<button onclick="doSend()">Send to server</button>
-		<div id="results">
-			<br />
-		</div>
-	</div> 
-	<div style="width:450px;background-color:#fafafa;padding:20px;margin:40px auto;text-align:center">
-		<canvas nx="dial" id="dial1"></canvas>
-		<canvas nx="dial"></canvas>
-		<canvas nx="dial"></canvas>
-		<canvas nx="dial"></canvas>
-		<canvas nx="dial"></canvas>
-		<canvas nx="dial"></canvas><br>
-		<canvas nx="position" id="position1"></canvas> &nbsp; &nbsp;
-		<canvas nx="position"></canvas><br>
-		<canvas nx="toggle"></canvas>
-		<canvas nx="toggle"></canvas>
-		<canvas nx="toggle"></canvas>
-		<canvas nx="button" id="button1"></canvas>
-		<canvas nx="button"></canvas>
-		<canvas nx="button"></canvas><br>
-		<canvas nx="slider" style="width:100px;height:30px"></canvas> &nbsp;
-		<canvas nx="range"></canvas> &nbsp;
-		<canvas nx="slider" style="width:100px;height:30px"></canvas>
-	</div>
+    <script src="scripts/winstore-jscompat.js"></script>
+    <script src="scripts/hand.minified-1.1.2.js"></script>
+    <script src="scripts/babylon.js"></script>
+    <canvas id="renderCanvas"></canvas>
+    <div style="width:450px;background-color:#fafafa;padding:2px;margin:4px auto;text-align:center">
+        <canvas nx="dial" id="dial1"></canvas>
+        <canvas nx="dial"></canvas>
+        <canvas nx="dial"></canvas>
+        <canvas nx="dial"></canvas>
+        <canvas nx="dial"></canvas>
+        <canvas nx="dial"></canvas><br>
+        <canvas nx="position" id="position1"></canvas> &nbsp; &nbsp;
+        <canvas nx="position"></canvas><br>
+        <canvas nx="toggle"></canvas>
+        <canvas nx="toggle"></canvas>
+        <canvas nx="toggle"></canvas>
+        <canvas nx="button" id="button1"></canvas>
+        <canvas nx="button"></canvas>
+        <canvas nx="button"></canvas><br>
+        <canvas nx="slider" style="width:100px;height:30px"></canvas> &nbsp;
+        <canvas nx="range"></canvas> &nbsp;
+        <canvas nx="slider" style="width:100px;height:30px"></canvas>
+    </div>
+    <div>
+        <header>
+            <h1>Web sockets client</h1>
+        </header>
+        <button onclick="wsConnect()">Connect</button>
+        Type some text:
+        <input type="text" id="cltText" size="50" />
+        <button onclick="doSend()">Send to server</button>
+        <div id="results">
+            <br />
+        </div>
+    </div>
+
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
 
     <script src="scripts/index.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/babscript.js"></script>
-	<script src="js/nexusscript.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/babscript.js"></script>
+    <script src="js/nexusscript.js"></script>
 
 </body>
 </html>
