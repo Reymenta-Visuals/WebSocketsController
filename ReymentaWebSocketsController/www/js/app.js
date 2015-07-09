@@ -1,5 +1,5 @@
 ﻿window.WebSocket = window.WebSocket || window.MozWebSocket;
-var url = "ws://192.168.3.220:9002/";
+var url = "ws://172.16.7.131:9092/";
 var ws;
 
 function doSend() {
